@@ -1,0 +1,141 @@
+header{
+    background-color: #F9F9F9;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.header-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1170px;
+}
+
+.header-logo{
+    width: 176px;
+    background-color: #FFFFFF;
+    height: 60px;
+    text-align: center;
+}
+
+.header-buttons{
+    width: 752px;
+    background-color: #FFFFFF;
+    height: 60px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.header-call{
+    width: 218px;
+    background-color: #FFFFFF;
+    height: 60px;
+}
+
+.buttons-head{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.contacts-head{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+
+
+
+
+.h1{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+.h2{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+.h3{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+.h4{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+
+.p1{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+
+.p1-white{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.p2{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+
+.p2-grey{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #717171;
+}
+
+.logo-text{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 110.00000000000001%;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #183280;
+}
+
+.header-call-btn{
+    height: 100%;
+    width: 100%;
+    background: #183280;
+}
+
+.vertical-line {
+    border-left: 1px solid black;
+    height: 40px;
+}

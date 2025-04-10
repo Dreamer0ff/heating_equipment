@@ -1,83 +1,226 @@
-header{
+header {
     background-color: #F9F9F9;
     width: 100%;
     height: 100px;
     align-items: center;
     display: flex;
     justify-content: center;
-    
 }
 
-.header-div{
+body {
+    background-color: #F9F9F9;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    background-color: #F9F9F9;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-div {
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 1170px;
 }
 
-.header-logo{
+.header-logo {
     width: 176px;
     background-color: #FFFFFF;
     height: 60px;
     text-align: center;
 }
 
-.header-buttons{
+.header-buttons {
     width: 752px;
     background-color: #FFFFFF;
     height: 60px;
     align-items: center;
     display: flex;
     justify-content: space-around;
-    
 }
 
-.header-call{
+.header-call {
     width: 218px;
     background-color: #FFFFFF;
     height: 60px;
 }
 
-.buttons-head{
+.buttons-head {
     align-items: center;
     display: flex;
     justify-content: space-around;
     gap: 20px;
 }
 
-.contacts-head{
+.contacts-head {
     align-items: center;
     display: flex;
     justify-content: space-around;
     gap: 20px;
 }
 
+.install {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
 
+.inst-text {
+    flex: 1;
+    padding: 20px;
+}
 
+.inst-img {
+    flex: 1;
+    padding: 20px;
+}
 
+.inst-text-up {
+    width: 519px;
+}
 
-.h1{
+.inst-text-mid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.inst-text-dw {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px; /* Расстояние между кнопкой и пагинатором */
+    margin-top: 80px;
+}
+
+.button-install {
+    width: 211px;
+    height: 60px;
+    border-radius: 3px;
+    gap: 10px;
+    padding: 10px 40px;
+    background: #183280;
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Расстояние между элементами пагинатора */
+}
+
+.pagination-arrow {
+    font-size: 18px;
+    color: #0056b3;
+    cursor: pointer;
+}
+
+.pagination-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.pagination-dot.active {
+    background-color: #0056b3;
+}
+
+.inst-img img {
+    width: 100%;
+    height: auto;
+}
+
+.inst-text-card {
+    border: 1px solid #EEEEEE;
+    border-radius: 3px;
+    height: 39px;
+    width: 252px;
+}
+
+.text-card {
+    margin-left: 20px;
+}
+
+.discount {
+    background-image: url(Assets/discount.jpg);
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 1170px;
+    height: 260px;
+    margin: auto;
+}
+
+.discount-text {
+    margin-left: 20px;
+    border-radius: 3px;
+}
+
+.h1 {
     font-family: Inter;
     font-weight: 400;
     font-size: 38px;
     line-height: 120%;
     letter-spacing: 0%;
 }
-.h2{
+
+.h1-blue {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #183280;
+}
+
+.h2 {
     font-family: Inter;
     font-weight: 400;
     font-size: 32px;
     line-height: 120%;
     letter-spacing: 0%;
 }
-.h3{
+
+.h2-white {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.h2-blue{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #183280;
+}
+
+.h3 {
     font-family: Inter;
     font-weight: 400;
     font-size: 20px;
     line-height: 120%;
     letter-spacing: 0%;
 }
-.h4{
+
+.h4 {
     font-family: Inter;
     font-weight: 400;
     font-size: 18px;
@@ -85,7 +228,7 @@ header{
     letter-spacing: 0%;
 }
 
-.p1{
+.p1 {
     font-family: Inter;
     font-weight: 400;
     font-size: 16px;
@@ -93,7 +236,7 @@ header{
     letter-spacing: 0%;
 }
 
-.p1-white{
+.p1-white {
     font-family: Inter;
     font-weight: 400;
     font-size: 16px;
@@ -102,7 +245,25 @@ header{
     color: #FFFFFF;
 }
 
-.p2{
+.p1-grey {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #717171;
+}
+
+.p1-blue {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #183280;
+}
+
+.p2 {
     font-family: Inter;
     font-weight: 400;
     font-size: 14px;
@@ -110,7 +271,7 @@ header{
     letter-spacing: 0%;
 }
 
-.p2-grey{
+.p2-grey {
     font-family: Inter;
     font-weight: 400;
     font-size: 14px;
@@ -119,7 +280,55 @@ header{
     color: #717171;
 }
 
-.logo-text{
+.p3 {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+
+.p3-nowrap {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    white-space: nowrap;
+}
+
+.p3-white {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+
+
+.dash {
+    color: #183280;
+}
+
+.btn-discount {
+    background: #FFFFFF;
+    width: 187px;
+    height: 60px;
+}
+
+.btn-serv {
+    width: 276px;
+    height: 60px;
+    gap: 10px;
+    border-radius: 3px;
+    border-width: 1px;
+    border: 1px solid #183280;
+    
+}
+
+.logo-text {
     font-family: "Inter", sans-serif;
     font-weight: 500;
     font-size: 15px;
@@ -129,7 +338,7 @@ header{
     color: #183280;
 }
 
-.header-call-btn{
+.header-call-btn {
     height: 100%;
     width: 100%;
     background: #183280;
@@ -138,4 +347,61 @@ header{
 .vertical-line {
     border-left: 1px solid black;
     height: 40px;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.service-card {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 3px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    height: 100%;
+}
+
+.service-card-up {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 530;
+    height: 112;
+
+
+}
+
+.service-card-dw {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.service-card-dw-l {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.service-card-dw-r img {
+    width: 100%;
+    height: auto;
+    border-radius: 3px;
+}
+
+.services-text{
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    margin-bottom: -50px;
+    margin-top: 50px;
 }

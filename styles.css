@@ -1,3 +1,7 @@
+.margin0{
+    margin: 0; padding: 0;
+}
+
 header {
     background-color: #F9F9F9;
     width: 100%;
@@ -220,6 +224,14 @@ main {
     letter-spacing: 0%;
 }
 
+.h3-white {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
 .h4 {
     font-family: Inter;
     font-weight: 400;
@@ -278,6 +290,15 @@ main {
     line-height: 120%;
     letter-spacing: 0%;
     color: #717171;
+}
+
+.p2-blue {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #183280;
 }
 
 .p3 {
@@ -404,4 +425,211 @@ main {
     width: 1170px;
     margin-bottom: -50px;
     margin-top: 50px;
+}
+
+.sevice-card-wide{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 3px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    height: 100%;
+    width: 1170px;
+}
+
+.about{
+    width: 1170px;
+    height: 541px;
+    
+}
+
+.about-body{
+    width: 1170;
+    height: 463;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.about-text{
+    width: 670;
+    height: 463;
+    
+    border-radius: 3px;
+    padding: 30px;   
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+}
+
+.about-text-dw{
+    width: 610;
+    height: 113;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;   
+    margin-top: 25px; 
+}
+
+.about-text-dw-1{
+    width: 190;
+    height: 113;
+   
+
+}
+
+.about-slider{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.stages{
+    width: 1920;
+    height: 754;
+    top: 3155px;
+    padding-top: 100px;
+    padding-right: 375px;
+    padding-bottom: 100px;
+    padding-left: 375px;
+    gap: 130px;
+    background-color: #183280;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.stages-block{
+    width: 1170;
+    height: 554;
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.stages-text-dw{
+    display: flex;
+    flex-direction: column;
+    width: 570;
+    height: 554;
+}
+
+.stages-text-dw-1{
+    display: flex;
+    flex-direction: column;
+}
+.stages-btn{
+    width: 187;
+    height: 60;
+    background-color: #FFFFFF;
+    border-radius: 3px;    
+}
+
+.stages-block{
+    width: 1170;
+    height: 754;
+}
+
+.team-block{
+    width: 1170;
+    height: 370;
+    gap: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.teammate{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.team-img{
+    width: 240px;
+    height: 240px;
+}
+
+.team{
+    width: 1170;
+    height: 408;
+    display: flex;
+    flex-direction: column;  
+    justify-content: space-between;
+}
+
+
+.grates{
+    display: flex;
+    flex-direction: column;
+    width: 1170px;
+    height: 552;
+    gap: 40px;
+}
+
+.grates-body{
+    width: 1170;
+    height: 439;
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.grates-left{
+    width: 570;
+    height: 439;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;    
+}
+
+.grates-right{
+    display: flex;
+    flex-direction: column;
+    width: 570;
+    height: 380;
+    gap: 20px;
+    padding: 20px;
+    background-color: #FFFFFF;
+}
+
+.grates-right-up{
+    width: 530;
+    height: 80;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;      
+}
+
+.grates-right-up-text{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.grates-right-dw{
+    display: flex;
+    flex-direction: row;
+    width: 530;
+    height: 80;
+    gap: 15px;
+}
+
+.grates-slider{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    height: 15px;
+    gap: 20px; 
+    align-items: center;
+    margin-left: 485px;
+    margin-top: -30px;
 }

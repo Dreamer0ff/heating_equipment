@@ -240,6 +240,16 @@ main {
     letter-spacing: 0%;
 }
 
+.h4-grey {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #717171;
+
+}
+
 .p1 {
     font-family: Inter;
     font-weight: 400;
@@ -631,5 +641,78 @@ main {
     gap: 20px; 
     align-items: center;
     margin-left: 485px;
-    margin-top: -30px;
+    
+}
+
+.works{
+    width: 1170px;
+    height: 671px;
+    gap: 40px;   
+    display: flex;
+    flex-direction: column;
+}
+
+.works-body{
+    width: 570px;
+    height: 538px;
+    gap: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.works-card{
+    width: 570px;
+    height: 538px;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.works-card-dw{
+    width: 408px;
+    height: 40px;      
+    
+}
+
+.works-slider{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    height: 15px;
+    gap: 20px; 
+    align-items: center;
+    margin-left: 485px;
+    
+}
+
+
+.line-cert {
+    border: 1px solid #183280;
+    width: 570px;
+    transform: rotate(0deg);
+    border-width: 1px;
+}
+
+.sertif{
+    width: 1170px;
+    height: 620px;
+    gap: 40px;   
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    
+}
+
+.sert-body{
+    width: 1170px;
+    height: 542px;
+    display: flex;
+    flex-direction: row;
+    gap: 130px;
+    
+}
+
+.sert-text-1{
+    margin-top: 40px;
 }

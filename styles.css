@@ -19,6 +19,15 @@ body {
     justify-content: center;
 }
 
+footer{
+    margin-top: 100px;
+    
+    height: 42;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
 main {
     background-color: #F9F9F9;
     width: 100%;
@@ -114,7 +123,7 @@ main {
     height: 60px;
     border-radius: 3px;
     gap: 10px;
-    padding: 10px 40px;
+    
     background: #183280;
 }
 
@@ -293,6 +302,15 @@ main {
     letter-spacing: 0%;
 }
 
+.p2-white {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #fff;
+}
+
 .p2-grey {
     font-family: Inter;
     font-weight: 400;
@@ -337,6 +355,53 @@ main {
     color: #FFFFFF;
 }
 
+.p3-blue {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #183280;
+}
+
+
+.p1-bordered{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+    width: 370;
+    height: 50;
+    border-radius: 3px;
+    border-width: 1px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    border: 1px solid #FFFFFF
+        
+}
+
+.p1-bordered-grey{
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #717171;
+    width: 370;
+    height: 50;
+    border-radius: 3px;
+    border-width: 1px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    border: 1px solid #FFFFFF
+        
+}
 
 
 .dash {
@@ -716,3 +781,160 @@ main {
 .sert-text-1{
     margin-top: 40px;
 }
+
+.quest{
+    width: 1920px;
+    height: 398px;
+    gap: 50px;
+    background-color: #183280;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center; 
+    margin-top: 100px;
+}
+
+.quest-body{
+    width: 1170px;
+    height: 398px;
+    gap: 50px;
+    background-color: #183280;
+    display: flex;
+    flex-direction: row;    
+    
+}
+
+.quest-right{
+    width: 470px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quest-left{
+    width: 370px;
+    height: 298px;
+    
+}
+
+
+.quest-btn{
+    width: 145;
+    height: 60;
+    border-radius: 3px;
+    gap: 10px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    padding-left: 30px;  
+    background-color: white;  
+}
+
+.feed{
+    width: 1920;
+    height: 1114; 
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.feed-title{
+    width: 1170px;
+}
+
+.feed-body{
+    width: 1170px;
+    height: 254;
+    top: 78px;
+    left: 375px;
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.feed-body-inf{
+    width: 370;
+    height: 212;
+    justify-content: space-between;
+    border-right-width: 1px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;    
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #EEEEEE
+
+
+}
+
+.feed-body-inf-1{
+    display: flex;
+    flex-direction: column;
+}
+
+.feed-icons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.map{
+    background-image: url("Assets/map.png");
+    width: 1920px;
+    height: 500px;
+    top: 372px;
+    
+}
+
+.end{
+    width: 1170px;
+    height: 60px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.end-right{
+    width: 311px;
+    height: 60px;
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.end-icon{
+    width: 23px;
+    height: 20px;
+    margin-top: 23px;
+}
+
+
+.footer{
+    width: 1170px;
+    height: 42px;
+    gap: 15px;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer-center{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.grampus-font{
+    font-family: "Raleway", sans-serif;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 2%;
+    text-align: center;
+    color: #717171;
+}
+
